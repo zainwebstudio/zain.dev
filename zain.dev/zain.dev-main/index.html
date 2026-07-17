@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Zain Yousaf — Websites That Grow Your Business</title>
+    <meta name="description"
+        content="Zain Yousaf, web developer based in Swat, Pakistan. I build fast, conversion-focused websites for gyms, travel agencies, real estate, and local businesses — worldwide.">
+
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ============ HEADER ============ -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#home" class="logo-link">
+                <img src="assets\zain.dev.svg" alt="Zain Web Studio" class="logo-img">
+                <span class="logo-word">zain<span class="logo-dot">.</span>dev</span>
+            </a>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="header-nav" id="headerNav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#work">Work</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#process">Process</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact" class="header-cta">Hire Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO ============ -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> web developer &middot; swat, pakistan</p>
+                    <h1>Websites that <span class="text-gradient">grow your business</span>, not just sit online.</h1>
+                    <p class="hero-sub">I design and build fast, conversion-ready websites for gyms, travel agencies,
+                        real estate agents, and local businesses — five live client sites and counting.</p>
+                    <div class="hero-buttons">
+                        <a href="#work" class="btn btn-primary">View my work <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-outline">Book free consultation</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat"><span class="hero-stat-num">5+</span><span>live client sites</span></div>
+                        <div class="hero-stat"><span class="hero-stat-num">5–7</span><span>day turnaround</span></div>
+                        <div class="hero-stat"><span class="hero-stat-num">30</span><span>days free support</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal" aria-hidden="true">
+                    <div class="editor-window">
+                        <div class="editor-topbar">
+                            <div class="editor-dots"><span></span><span></span><span></span></div>
+                            <div class="editor-tabs">
+                                <span class="editor-tab active">index.html</span>
+                                <span class="editor-tab">style.css</span>
+                                <span class="editor-tab">script.js</span>
+                            </div>
+                        </div>
+                        <div class="editor-body">
+                            <pre
+                                class="editor-code"><code><span class="ln">1</span><span class="tok-comment">// zain-web-studio/client.js</span>
+<span class="ln">2</span><span class="tok-kw">const</span> <span class="tok-var">developer</span> <span class="tok-punc">=</span> <span class="tok-punc">{</span>
+<span class="ln">3</span>  <span class="tok-prop">name</span><span class="tok-punc">:</span> <span class="tok-str">"Zain Yousaf"</span><span class="tok-punc">,</span>
+<span class="ln">4</span>  <span class="tok-prop">based</span><span class="tok-punc">:</span> <span class="tok-str">"Swat, Pakistan"</span><span class="tok-punc">,</span>
+<span class="ln">5</span>  <span class="tok-prop">worksWith</span><span class="tok-punc">:</span> <span class="tok-punc">[</span><span class="tok-str">"gyms"</span><span class="tok-punc">,</span> <span class="tok-str">"travel"</span><span class="tok-punc">,</span> <span class="tok-str">"real&nbsp;estate"</span><span class="tok-punc">]</span><span class="tok-punc">,</span>
+<span class="ln">6</span>  <span class="tok-prop">available</span><span class="tok-punc">:</span> <span class="tok-kw">true</span><span class="tok-punc">,</span>
+<span class="ln">7</span><span class="tok-punc">}</span><span class="tok-punc">;</span>
+<span class="ln">8</span>
+<span class="ln">9</span><span class="tok-var">developer</span><span class="tok-punc">.</span><span class="tok-fn">build</span><span class="tok-punc">(</span><span class="tok-var">yourBusiness</span><span class="tok-punc">)</span><span class="tok-punc">;</span> <span class="typing-cursor">&nbsp;</span></code></pre>
+                        </div>
+                        <div class="editor-statusbar">
+                            <span><i class="fas fa-code-branch"></i> main</span>
+                            <span class="status-ok"><i class="fas fa-circle"></i> live</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SERVICES ============ -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> what i build</p>
+                    <h2>Sites built for the industry you're in</h2>
+                    <p class="section-sub">Not a one-size template — every build starts from what actually gets your
+                        customers to book, call, or buy.</p>
+                </div>
+                <div class="grid-4 reveal">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-dumbbell"></i></div>
+                        <h3>Gym &amp; Fitness</h3>
+                        <p>Membership plans, trainer profiles, class schedules, and trial booking flows.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-plane-departure"></i></div>
+                        <h3>Travel &amp; Tours</h3>
+                        <p>Package showcases, destination galleries, and vehicle or hotel booking systems.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-building"></i></div>
+                        <h3>Real Estate</h3>
+                        <p>Property listings, search filters, agent profiles, and inquiry capture.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-store"></i></div>
+                        <h3>Local Business</h3>
+                        <p>Dealerships, restaurants, clinics — anything that needs to turn visitors into calls.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SKILLS ============ -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="skills-layout">
+                    <div class="skills-lead reveal">
+                        <p class="eyebrow"><span class="eyebrow-bracket">//</span> core skill</p>
+                        <h2>I don't drag a template around. <span class="text-gradient">I write the code.</span></h2>
+                        <p class="section-sub">Most "web developers" pick a theme, swap the logo, and call it custom.
+                            Everything I build starts from a blank file — which means no feature is off-limits and no
+                            layout is locked to what a marketplace theme allows.</p>
+                        <div class="skills-badge">
+                            <i class="fas fa-code"></i>
+                            <div><strong>100% Hand-Coded</strong><span>HTML · CSS · JS — no page-builder ceiling</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-list reveal">
+                        <div class="skill-row">
+                            <div class="skill-row-top">
+                                <h3>Custom Raw Code</h3><span class="skill-level">flagship</span>
+                            </div>
+                            <p>Built from scratch, pixel-matched to design. Every animation, layout, and interaction is
+                                exactly what the project needs — nothing forced into a theme's limits.</p>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-row-top">
+                                <h3>Fully Customizable</h3>
+                            </div>
+                            <p>Need a booking flow, a calculator, a weird one-off layout? If it can run in a browser, it
+                                can be built — no plugin dependency required.</p>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-row-top">
+                                <h3>WordPress &amp; Elementor</h3>
+                            </div>
+                            <p>For clients who want to self-edit content after launch, I also build on WordPress — same
+                                design care, easier day-to-day management.</p>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-row-top">
+                                <h3>Performance-First</h3>
+                            </div>
+                            <p>Hand-written code ships lighter than page-builder output by default — faster loads
+                                without extra optimization work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ WORK / PORTFOLIO ============ -->
+        <section id="work" class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> live projects</p>
+                    <h2>Real sites, real clients, real traffic</h2>
+                    <p class="section-sub">Every project below is deployed and running today. Click through to see it
+                        live.</p>
+                </div>
+
+                <div class="portfolio-grid reveal">
+
+                    <article class="portfolio-item">
+                        <a href="http://swathealthgym.com/" target="_blank" rel="noopener" class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i> swathealthgym.com</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="assets\Screenshot 2026-05-27 152758.png"
+                                    alt="Swat Health Gym website homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Swat Health Gym <span class="tag-stack tag-wp">WordPress</span></h3>
+                            <p>Membership site with trainer profiles, class schedule, and a trial-booking flow built to
+                                fill 8 beginner slots a month.</p>
+                            <a href="http://swathealthgym.com/" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <a href="https://executivetourstravels.com" target="_blank" rel="noopener"
+                            class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i> executivetourstravels.com</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="assets\Screenshot 2026-06-04 013422.png"
+                                    alt="Executive Tours and Travels website homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Executive Tours &amp; Travels <span class="tag-stack tag-wp">WordPress</span></h3>
+                            <p>Northern-Pakistan travel platform with destination galleries, hotel finder, and vehicle
+                                rental booking.</p>
+                            <a href="https://executivetourstravels.com" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <a href="http://asifrealestate.com/" target="_blank" rel="noopener" class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i> asifrealestate.com</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="assets\Screenshot 2026-06-04 014030.png"
+                                    alt="Asif Real Estate website homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Asif Real Estate <span class="tag-stack tag-wp">WordPress</span></h3>
+                            <p>Property listing site with city/type/price search filters and lead-capture built into
+                                every listing.</p>
+                            <a href="http://asifrealestate.com/" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <a href="https://www.peakautos.free.nf/" target="_blank" rel="noopener" class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i> peakautos.free.nf</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="assets\Screenshot 2026-06-04 013506.png"
+                                    alt="Peak Autos car dealership website homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Peak Autos <span class="tag-stack tag-wp">WordPress</span></h3>
+                            <p>Car dealership site with inventory browsing, test-drive booking, and one-tap WhatsApp
+                                inquiries.</p>
+                            <a href="https://www.peakautos.free.nf/" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <a href="https://splendid-sunshine-2b1c77.netlify.app/" target="_blank" rel="noopener"
+                            class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i> aura-resorts.netlify.app</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="assets\Screenshot 2026-06-03 221958.png"
+                                    alt="Aura Resorts concept website homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Aura Resorts <span class="tag-stack tag-code">Custom Code</span><span
+                                    class="tag-concept">personal concept</span></h3>
+                            <p>A self-directed build to push my own ceiling: custom scroll interactions and UI with no
+                                templates, no plugins.</p>
+                            <a href="https://splendid-sunshine-2b1c77.netlify.app/" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <a href="https://auditpass.akhnd.com/" target="_blank" rel="noopener" class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i>auditpass.akhnd.com</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="zain.dev-main\auditpass.png" alt="Auditpass homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Auditpass <span class="tag-stack tag-code">Custom Code</span><span
+                                    class="tag-concept">personal concept</span></h3>
+                            <p>AuditPass — SaaS Landing Page & Web App
+                                Built a complete SaaS platform for a compliance document generator that helps startup
+                                founders create SOC 2, ISO 27001, GDPR, and HIPAA policies instantly.</p>
+                            <a href="https://auditpass.akhnd.com/" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <a href="https://tools.akhnd.com/" target="_blank" rel="noopener" class="browser-frame">
+                            <div class="browser-topbar">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url"><i class="fas fa-lock"></i>tools.akhnd.com</div>
+                            </div>
+                            <div class="browser-shot">
+                                <img src="zain.dev-main\akhndtools.png" alt="Tools homepage" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="portfolio-info">
+                            <h3>Tools <span class="tag-stack tag-code">Custom Code</span><span
+                                    class="tag-concept">personal concept</span></h3>
+                            <p>Built a collection of free, fast-loading utility tools designed for everyday use, no
+                                signups, no downloads, just instant results.</p>
+                            <a href="https://tools.akhnd.com/" target="_blank" rel="noopener"
+                                class="portfolio-link">View live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ WHY ============ -->
+        <section id="why" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> why work with me</p>
+                    <h2>What you actually get</h2>
+                    <p class="section-sub">No fluff. Here's what's true on every project I take on.</p>
+                </div>
+                <div class="grid-2 reveal">
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fas fa-mobile-screen-button"></i></div>
+                        <div class="why-text">
+                            <h3>Mobile-first, always</h3>
+                            <p>Every site is fully responsive and checked on real phones before it ships.</p>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="why-text">
+                            <h3>Fast loading speed</h3>
+                            <p>Optimized images and lean code — no bloated builds slowing you down.</p>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fas fa-magnifying-glass"></i></div>
+                        <div class="why-text">
+                            <h3>SEO-ready structure</h3>
+                            <p>Clean HTML, proper headings, meta tags, and a sitemap from day one.</p>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fas fa-comments"></i></div>
+                        <div class="why-text">
+                            <h3>Clear communication</h3>
+                            <p>Regular updates through the build — no ghosting, no guessing games.</p>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fas fa-sliders"></i></div>
+                        <div class="why-text">
+                            <h3>Easy to manage</h3>
+                            <p>Built so you can update text, images, and pricing without touching code.</p>
+                        </div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fas fa-shield-halved"></i></div>
+                        <div class="why-text">
+                            <h3>30-day free support</h3>
+                            <p>I stay reachable for a full month after launch — no extra cost.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ TECH STACK ============ -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> tech stack</p>
+                    <h2>Tools behind every build</h2>
+                </div>
+                <div class="tech-row reveal">
+                    <span class="tech-chip"><i class="fab fa-wordpress"></i> WordPress</span>
+                    <span class="tech-chip"><i class="fab fa-html5"></i> HTML5</span>
+                    <span class="tech-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+                    <span class="tech-chip"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="tech-chip"><i class="fab fa-php"></i> PHP</span>
+                    <span class="tech-chip"><i class="fas fa-database"></i> MySQL</span>
+                    <span class="tech-chip"><i class="fab fa-figma"></i> Figma</span>
+                    <span class="tech-chip"><i class="fab fa-git-alt"></i> Git</span>
+                    <span class="tech-chip"><i class="fas fa-cart-shopping"></i> WooCommerce</span>
+                    <span class="tech-chip"><i class="fas fa-bolt-lightning"></i> Elementor</span>
+                    <span class="tech-chip"><i class="fas fa-server"></i> cPanel</span>
+                    <span class="tech-chip"><i class="fas fa-lock"></i> SSL &amp; Security</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PROCESS ============ -->
+        <section id="process" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> how it works</p>
+                    <h2>Four steps, start to launch</h2>
+                    <p class="section-sub">This order matters — each step depends on the one before it.</p>
+                </div>
+                <div class="grid-4 reveal">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <h3>Discovery call</h3>
+                        <p>We talk through your goals, audience, and must-have features.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <h3>Design &amp; approval</h3>
+                        <p>I mock up the design and revise it against your feedback.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <h3>Development</h3>
+                        <p>I build the fully responsive site and test it end to end.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">04</div>
+                        <h3>Launch &amp; support</h3>
+                        <p>Site goes live, plus 30 days of free support after.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FAQ ============ -->
+        <section id="faq" class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> faq</p>
+                    <h2>Before you reach out</h2>
+                </div>
+                <div class="faq-list reveal">
+                    <div class="faq-item">
+                        <button class="faq-question"><span>How much does a website cost?</span><i
+                                class="fas fa-plus"></i></button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer-inner">
+                                <p>Projects start at $400 for a complete 5-page site. Final price depends on features
+                                    and complexity, and payment plans are available.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>How long does it take?</span><i
+                                class="fas fa-plus"></i></button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer-inner">
+                                <p>Standard sites take 5–7 days. More complex builds with custom features can take 2–3
+                                    weeks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Do you offer support after launch?</span><i
+                                class="fas fa-plus"></i></button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer-inner">
+                                <p>Yes — 30 days free support is included with every project. Ongoing maintenance plans
+                                    are available after that.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>What payment methods do you accept?</span><i
+                                class="fas fa-plus"></i></button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer-inner">
+                                <p>Bank transfer, Easypaisa, JazzCash, Payoneer, and Wise. Standard terms are 50%
+                                    advance, 50% on completion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question"><span>Do you work with international clients?</span><i
+                                class="fas fa-plus"></i></button>
+                        <div class="faq-answer-wrapper">
+                            <div class="faq-answer-inner">
+                                <p>Yes, worldwide. International payments go through Payoneer or Wise.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="eyebrow"><span class="eyebrow-bracket">//</span> get in touch</p>
+                    <h2>Let's build something that works</h2>
+                    <p class="section-sub">Free consultation, no obligation. Tell me about your project below.</p>
+                </div>
+
+                <div class="contact-grid reveal">
+                    <form id="whatsappContactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group"><label for="whatsappName">Name</label><input type="text"
+                                    id="whatsappName" placeholder="Your name" required></div>
+                            <div class="form-group"><label for="whatsappEmail">Email</label><input type="email"
+                                    id="whatsappEmail" placeholder="you@email.com" required></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsappProject">Project type</label>
+                            <select id="whatsappProject" required>
+                                <option value="" disabled selected>Select project type</option>
+                                <option>Gym / Fitness Website</option>
+                                <option>Travel / Tours Website</option>
+                                <option>Real Estate Website</option>
+                                <option>E-commerce / Online Store</option>
+                                <option>Business / Corporate Website</option>
+                                <option>Restaurant / Cafe Website</option>
+                                <option>Personal Portfolio / Resume</option>
+                                <option>Other / Custom Project</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><label for="whatsappMessage">Project details</label><textarea
+                                id="whatsappMessage" rows="4" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send via WhatsApp <i
+                                class="fab fa-whatsapp"></i></button>
+                        <div id="whatsappFormStatus" role="status"></div>
+                    </form>
+
+                    <div class="contact-side">
+                        <div class="contact-card">
+                            <p class="eyebrow"><span class="eyebrow-bracket">//</span> direct</p>
+                            <a href="https://wa.me/923365416775" target="_blank" rel="noopener" class="contact-line"><i
+                                    class="fab fa-whatsapp"></i> +92 336 5416775</a>
+                            <a href="mailto:zainwebstudio@gmail.com" class="contact-line"><i
+                                    class="fas fa-envelope"></i> zainwebstudio@gmail.com</a>
+                            <div class="contact-line contact-line-static"><i class="fas fa-location-dot"></i> Swat,
+                                Pakistan — working worldwide</div>
+                        </div>
+                        <div class="contact-card">
+                            <p class="eyebrow"><span class="eyebrow-bracket">//</span> follow</p>
+                            <div class="contact-social">
+                                <a href="https://www.linkedin.com/in/zain-yousaf-akhund-56141b3ab" target="_blank"
+                                    rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/zainwebstudio/" target="_blank" rel="noopener"
+                                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://x.com/zainnwebstudio" target="_blank" rel="noopener"
+                                    aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/zain.dev.svg" alt="Zain Web Studio" class="footer-logo">
+                <span>zain<span class="logo-dot">.</span>dev</span>
+            </div>
+            <p>&copy; 2026 Zain Yousaf — Web Developer from Swat, Pakistan</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923365416775" target="_blank" rel="noopener" class="whatsapp-float"
+        aria-label="Contact on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
