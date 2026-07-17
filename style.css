@@ -1272,4 +1272,183 @@ a.contact-line:hover {
     .contact-form {
         padding: 24px;
     }
+
+    /* ---- extra mobile polish ---- */
+    .container {
+        padding: 0 18px;
+    }
+
+    .logo-img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .logo-word {
+        font-size: 0.96rem;
+    }
+
+    .hero-sub {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .hero-stats {
+        justify-content: space-between;
+        row-gap: 18px;
+    }
+
+    .hero-stat-num {
+        font-size: 1.35rem;
+    }
+
+    .editor-body {
+        padding: 18px 14px;
+    }
+
+    .editor-code {
+        font-size: 0.74rem;
+        line-height: 1.7;
+    }
+
+    .editor-code .ln {
+        width: 18px;
+    }
+
+    .editor-tabs {
+        gap: 2px;
+    }
+
+    .editor-tab {
+        font-size: 0.7rem;
+        padding: 5px 9px;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .card,
+    .why-card,
+    .skill-row {
+        padding: 22px 20px;
+    }
+
+    .why-card {
+        gap: 14px;
+    }
+
+    .skills-badge {
+        max-width: 100%;
+        padding: 16px 18px;
+    }
+
+    .browser-shot {
+        aspect-ratio: 16 / 11;
+    }
+
+    .portfolio-info {
+        padding: 18px 20px 20px;
+    }
+
+    .faq-question {
+        padding: 16px 18px;
+        font-size: 0.92rem;
+    }
+
+    .faq-answer-inner {
+        padding: 0 18px 16px;
+    }
+
+    .tech-chip {
+        padding: 8px 14px;
+        font-size: 0.8rem;
+    }
+
+    .contact-card {
+        padding: 20px;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 0.78rem;
+        margin-bottom: 14px;
+    }
+
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+        bottom: max(18px, env(safe-area-inset-bottom));
+        right: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        top: 10px;
+        width: 92%;
+        padding: 10px 14px;
+        border-radius: 20px;
+    }
+
+    .hero {
+        padding: 126px 0 56px;
+    }
+
+    h1 {
+        font-size: 1.85rem;
+    }
+
+    .hero-stats {
+        gap: 16px 20px;
+    }
+
+    .hero-stat-num {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        padding: 64px 0;
+    }
+
+    .section-sub {
+        font-size: 0.95rem;
+    }
+
+    .editor-code {
+        font-size: 0.66rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 16px;
+        padding: 12px 14px;
+    }
+
+    .contact-form {
+        padding: 18px;
+    }
+
+    .contact-social a {
+        width: 38px;
+        height: 38px;
+    }
+
+    .whatsapp-float {
+        width: 46px;
+        height: 46px;
+        font-size: 1.2rem;
+        bottom: max(14px, env(safe-area-inset-bottom));
+        right: 14px;
+    }
 }
